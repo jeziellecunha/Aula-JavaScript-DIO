@@ -60,3 +60,17 @@ function redirecionar(){
     window.open("https://www.google.com.br/"); //abre em outra aba
     //window.location.href="https://www.google.com.br/"; abre na mesma aba
 }
+
+
+
+function teste(entrada){
+    let line = entrada.split(" ");
+let A = parseInt(line[0]);
+let B = parseInt(line[1]);
+let total = A + B; // Altere o valor da variável com o cálculo esperado
+console.log("X = " + total);
+}
+function separaCpf (cpf){
+    let line = cpf.split(".");
+console.log(line[2]);
+}
